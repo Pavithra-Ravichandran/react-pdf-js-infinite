@@ -218,6 +218,7 @@ class Pdf extends Component {
               pdf={this.state.pdf}
               page={page + 1}
               scale={this.props.scale}
+              rotate={this.props.rotate}
               className={this.props.className}
             />,
           )}
